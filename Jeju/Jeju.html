@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jeju Swiper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html, body{
+         font: 15px/1.5 Bahnschrift, Helvetica, sans-serif;
+         padding: 0;
+         margin: 0;
+         position: relative;
+         background-color: #ffffff;
+         height: 100%;
+      }
+
+  /*Global*/
+  .header{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+
+/*Header*/
+header{
+  background: #ffffff;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ffffff 3px solid;
+}
+
+header a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding:0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #808080;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #000000;
+  font-weight: bold;
+}
+
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+    </style>
+  </head>
+
+  <body>
+  <header>
+    <div class="header">
+      <div id="branding">
+        <li><a href="../index.html"><h1>T R A V E L</h1></a></li>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="Jeju.html"><span class="highlight">Jeju</span></a></li>
+          <li><a href="../Sokcho/Sokcho.html">Sokcho</a></li>
+          <li><a href="../Yeosu/Yeosu.html">Yeosu</a></li>
+          <li><a href="../Cats/Cats.html">Cats</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="jeju1.jpg"></div>
+        <div class="swiper-slide"><img src="jeju2.jpg"></div>
+        <div class="swiper-slide"><img src="jeju3.jpg"></div>
+        <div class="swiper-slide"><img src="jeju4.jpg"></div>
+        <div class="swiper-slide"><img src="jeju5.jpg"></div>
+        <div class="swiper-slide"><img src="jeju6.jpg"></div>
+        <div class="swiper-slide"><img src="jeju7.jpg"></div>
+        <div class="swiper-slide"><img src="jeju8.jpg"></div>
+        <div class="swiper-slide"><img src="jeju9.jpg"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <footer>
+  <p>Park Cherin 21173034, Copyright &copy; 2021</p>
+</footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

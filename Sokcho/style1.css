@@ -1,0 +1,189 @@
+body{
+	font: 15px/1.5 Bahnschrift, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.header{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Header*/
+header{
+	background: #ffffff;
+	color: #000000;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ffffff 3px solid;
+}
+
+header a{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #808080;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+
+
+/*Story-tel*/
+article#story-tel{
+	float: left;
+	margin-top: 80px;
+	width: 60%;
+	font-family: 'Jeju Myeongjo', 'RIDIBatang';
+	line-height: -25px;
+	font-size: 20px;
+}
+
+.page-title{
+	font-family: "Yu Mincho Demibold", "Perpetua Titling MT";
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+.smalldate{
+	font-family: "Yu Mincho Demibold", "Californian FB";
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 5px;
+}
+
+.sidepic{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	margin-top: -250px;
+}
+
+/*showcase*/
+#showcase{
+	margin-top: 200px;
+}
+
+/*popup*/
+
+.layer{
+	 width: 1300px; 
+	 height: 650px; 
+	 background-color: #fff; 
+	 border: 1px solid #e5e5e5; 
+	 position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+     margin: auto;
+	 border-radius: 5px; 
+	 box-shadow: 0 0 10px -4px; 
+	  opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+} 
+
+.layer:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+/* 전체 글 부분 패딩값 조절 */ 
+.text_area{
+	 padding: 80px 50px 0; 
+} 
+
+/* 텍스트 부분 스타일 */ 
+.text_area > p{ 
+	font-family: 'RIDIBatang';
+	font-size: 23px; 
+	line-height: 1.5; 
+	text-align: center; 
+	margin-top: 180px;
+}
+
+.icon{
+	position: relative;
+	float: right;
+	display: inline-block;
+	margin-top: -70px;
+	margin-right: -20px;
+}
+.icon:after{
+	display: inline-block;
+	content: "\00d7";
+	font-size: 35pt;
+}
+
+.pop{
+	margin-top: -42px;
+	vertical-align: middle;
+	width: 48%;
+	float: left;
+	clear: both;
+}
+
+.popmp4{
+	margin-top: -42px;
+	vertical-align: middle;
+	width: 48%;
+	float: left;
+	clear: both;
+
+}
+
+/* 닫기 버튼 디자인 및 위치 조절*/ 
+.btn_close{ 
+	border: none; font-size: 15px; width: 80px; height: 25px; background: transparent; position: absolute; top: 10px; right: 10px; cursor: pointer; font-weight: bold; 
+} 
+
+
+footer{
+	padding: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+}
