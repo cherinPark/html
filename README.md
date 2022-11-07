@@ -1,15 +1,16 @@
-# 웹사이트 주소
+# :open_file_folder: 웹사이트 주소
 [TRAVEL] (https://cherinpark.github.io/html/)
 
-# 개발 계기
+ 
+# :mag_right: 개발 계기
 자율적으로 만든 첫 웹사이트인 만큼 2021년도에 갔었던 여행 기록과 사진을 볼 수 있으며, 제가 좋아하는 것들로 꾸며져 있습니다. 
 
 Sublime을 이용하여 제작했으며, 총 페이지 수는 메인화면 포함 5페이지 입니다.
 
-# 개발 기간
+# :date: 개발 기간
 2021.10.07~2021.12.12
 
-# 캡쳐 화면
+# :pushpin: 캡쳐 화면
 
 * 메인 페이지
 >Sockho가 current page인 경우
@@ -68,6 +69,6 @@ Sublime을 이용하여 제작했으며, 총 페이지 수는 메인화면 포�
 <img src="https://user-images.githubusercontent.com/117168607/200250391-ac12b438-330d-462f-a764-c1914b781bb7.png" width="55%" height="55%"/>
 <img src="https://user-images.githubusercontent.com/117168607/200250485-c6219e8f-b77d-4f18-be40-85e32d4f6c2c.png" width="30%" height="30%"/>
 
-# 부가 설명
+# :bulb: 부가 설명
 링크 공유를 위해 Git Pages를 사용했습니다.
 
